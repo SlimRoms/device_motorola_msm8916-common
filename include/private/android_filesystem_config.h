@@ -104,6 +104,8 @@
 
 #define AID_OEM_RESERVED_END   2999
 
+#define AID_THEME         3000  /* theme user */
+
 /* The 3000 series are intended for use as supplemental group id's only.
  * They indicate special Android capabilities that the kernel is aware of. */
 #define AID_NET_BT_ADMIN  3001  /* bluetooth: create any socket */
@@ -237,6 +239,8 @@ static const struct android_id_info android_ids[] = {
 
     { "rfs",           AID_RFS, },
     { "rfs_shared",    AID_RFS_SHARED, },
+
+    { "theme",         AID_THEME, },
 
     { "net_bt_admin",  AID_NET_BT_ADMIN, },
     { "net_bt",        AID_NET_BT, },
