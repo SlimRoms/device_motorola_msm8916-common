@@ -147,8 +147,8 @@ PRODUCT_PACKAGES += \
     lights.msm8916
 
 # LineageActions
-PRODUCT_PACKAGES += \
-    LineageActions
+#PRODUCT_PACKAGES += \
+#    LineageActions
 
 # Media
 PRODUCT_COPY_FILES += \
