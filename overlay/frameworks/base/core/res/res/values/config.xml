@@ -244,8 +244,8 @@
           turned off and the screen off animation has been performed. -->
     <bool name="config_dozeAfterScreenOff">true</bool>
 
-    <!-- Doze: should the proximity sensor (handwave / pocket mode) be used as a pulse signal. -->
-    <bool name="config_dozePulseProximity">true</bool>
+    <!-- Doze: should the proximity sensor (handwave / pocket mode) be used as a pulse signal. >
+    <bool name="config_dozePulseProximity">true</bool-->
 
     <!-- Power Management: Specifies whether to decouple the interactive state of the
          device from the display on/off state.
@@ -278,8 +278,8 @@
 
     <!-- Enable the option to check proximity sensor when deciding whether to
          turn the screen on
-         NOTE ! - Enable for devices that have a fast response proximity sensor -->
+         NOTE ! - Enable for devices that have a fast response proximity sensor >
     <bool name="config_proximityCheckOnWake">true</bool>
-    <integer name="config_proximityCheckTimeout">300</integer>
+    <integer name="config_proximityCheckTimeout">300</integer-->
 
 </resources>
