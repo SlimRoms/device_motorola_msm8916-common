@@ -649,6 +649,9 @@ service wpa_supplicant /vendor/bin/hw/wpa_supplicant \
     disabled
     oneshot
 
+on property:init.svc.wificond=running
+    write /sys/kernel/boot_wlan/boot_wlan 1
+
 service ril-daemon2 /vendor/bin/hw/rild -c 2
     class main
     user radio
